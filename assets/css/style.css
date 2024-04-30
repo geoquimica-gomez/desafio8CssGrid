@@ -92,7 +92,12 @@ h1 {
 main {
     grid-area: main;
     background-color: var(--color1);
+}
 
+@media (max-width: 768px) {
+    main {
+        overflow-x: auto;
+    }
 }
 
 .container-products {
